@@ -1,14 +1,16 @@
 :root{
     --blue1: #546482;
-    --blue2: #2f2b41ca;
+    --blue2: #312d44ca;
     --yellow1: #EBEC9A;
-    --eggshell: #F1F0F3;
+    --eggshell: #c5c3c6;
     --header: #bbf0fb;
     --font: 'Varela Round', sans-serif;
 }
 
 *{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
     
 }
 
@@ -25,7 +27,7 @@ body{
 
 .header{
     width: 100vw;
-    height: 22vh;
+    height: 20vh;
     background-color: var(--blue1);
     border-bottom: 3px solid var(--blue2);
     display: flex;
@@ -35,7 +37,7 @@ body{
 
 .body-container{
     width: 100vw;
-    height: 78vh;
+    height: 80vh;
     background-color: var(--eggshell);
     display: flex;
     flex-direction: column;
@@ -51,7 +53,7 @@ body{
 }
 
 .message{
-    font-size: 35px;
+    font-size: 50px;
 }
 
 .restart-button{
@@ -68,8 +70,8 @@ body{
 }
 
 .restart-button:hover{
-    background-color: #8fa0c4;
-    transition: 0.3s;
+    background-color: #4a5466;
+    transition: 0.1s;
 }
 
 .gameboard{
@@ -80,6 +82,10 @@ body{
 .field{
     width: 150px;
     height: 150px;
-    background-color:  #31343a;
+    background-color:  #ededee;
     
+}
+
+.field:hover{
+    background-color:  rgb(248,248,255);
 }

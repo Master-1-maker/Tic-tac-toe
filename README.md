@@ -1,4 +1,4 @@
-A simple TIC-TAC-TOE application created using HTML, CSS , Javascript (vanilla)
+A TIC-TAC-TOE game created using HTML, CSS , Javascript (vanilla)
 
 📍 Live preview link 📍: https://master-1-maker.github.io/Tic-tac-toe/
 
